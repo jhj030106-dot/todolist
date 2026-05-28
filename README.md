@@ -15,4 +15,4 @@
 * **DOM 조작**: `querySelector`, `innerHTML`로 화면을 동적으로 그리기
 * **데이터 저장소**: 브라우저 `LocalStorage` 및 `JSON` 데이터 변환
 * **이벤트 처리**: `onclick`, `onkeydown`을 통한 클릭 및 키보드 감지
-* **배열 활용**: `forEach`, `push`, `filter` 등 자바스크립트 배열 메서드 사용
+* **배열 활용**: `forEach`, `push`등 자바스크립트 배열 메서드 사용
