@@ -1,0 +1,136 @@
+body {
+    background-color: #e6e6fa;
+    font-family: '맑은 고딕', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header-box {
+    background: #aed9f4;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+
+.header-box h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+.js-todo-input {
+    flex: 1;
+    padding: 18px 20px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    font-size: 15px;
+    outline: none;
+}
+
+.add-btn {
+    background: white;
+    border: 2px solid #000;
+    border-radius: 12px;
+    width: 60px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.add-btn:hover { 
+    background: #e0e0e0; 
+}
+
+.reset-btn {
+    background: white;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.reset-btn:hover { 
+    background: #ffebee; 
+    color: #d32f2f; 
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    background: #aed9f4;
+    padding: 0 20px;
+    height: 60px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    gap: 15px;
+}
+
+.todo-text {
+    flex: 1;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+    color: #666; 
+}
+
+.btn-group {
+    display: flex;
+    gap: 6px;
+}
+
+.action-btn {
+    background: white;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.action-btn:hover { 
+    background: #ddd; 
+}
+
+.edit-box {
+    flex: 1;
+    padding: 8px 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
