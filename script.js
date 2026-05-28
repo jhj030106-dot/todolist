@@ -71,7 +71,7 @@ function saveEdit(id) {
         editingId = null; 
         renderTodos();
     } else {
-        alert('수정할 내용을 빈 칸으로 둘 수 없습니다!');
+        alert('빈칸 X');
     }
 }
 
